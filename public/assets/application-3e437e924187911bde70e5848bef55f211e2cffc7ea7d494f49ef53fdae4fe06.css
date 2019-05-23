@@ -1,0 +1,104 @@
+@import url(bootstrap/dist/css/bootstrap.css);
+/* line 1, /onebitexchange/app/assets/stylesheets/exchanges.scss */
+body {
+  background: url(/background-img.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 9, /onebitexchange/app/assets/stylesheets/exchanges.scss */
+.main {
+  margin-top: 50px;
+}
+
+/* line 14, /onebitexchange/app/assets/stylesheets/exchanges.scss */
+.title-box {
+  margin-top: 20%;
+}
+/* line 17, /onebitexchange/app/assets/stylesheets/exchanges.scss */
+.title-box .title {
+  color: white;
+  text-shadow: 2px 0px 2px #000000;
+}
+/* line 22, /onebitexchange/app/assets/stylesheets/exchanges.scss */
+.title-box .subtitle {
+  color: white;
+  text-shadow: 3px 0px 3px #000000;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* line 32, /onebitexchange/app/assets/stylesheets/exchanges.scss */
+.exchange_box {
+  margin: 10px auto;
+}
+/* line 34, /onebitexchange/app/assets/stylesheets/exchanges.scss */
+.exchange_box .logo-box {
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+/* line 3, /onebitexchange/app/assets/stylesheets/_exchange_box.scss */
+.exchange_box .card {
+  border: 0;
+}
+/* line 6, /onebitexchange/app/assets/stylesheets/_exchange_box.scss */
+.exchange_box .card .card-header {
+  background-color: #878d99;
+  border-radius: 0;
+  color: white;
+  font-weight: 700;
+}
+/* line 13, /onebitexchange/app/assets/stylesheets/_exchange_box.scss */
+.exchange_box .card .card-block {
+  padding-top: 10px;
+  padding: 20px;
+}
+/* line 17, /onebitexchange/app/assets/stylesheets/_exchange_box.scss */
+.exchange_box .card .card-block .title {
+  color: #878d99;
+  font-weight: 700;
+}
+/* line 22, /onebitexchange/app/assets/stylesheets/_exchange_box.scss */
+.exchange_box .card .card-block .btn-exchange {
+  background-color: #5bc0de;
+  border-color: #5bc0de;
+  border-radius: 0;
+}
+
+@media only screen and (max-width: 992px) {
+  /* line 32, /onebitexchange/app/assets/stylesheets/_exchange_box.scss */
+  .card-header {
+    font-size: 25px;
+  }
+
+  /* line 36, /onebitexchange/app/assets/stylesheets/_exchange_box.scss */
+  .title {
+    margin-top: 30px;
+    font-size: 20px;
+  }
+
+  /* line 42, /onebitexchange/app/assets/stylesheets/_exchange_box.scss */
+  .form-group select {
+    font-size: 20px;
+    height: 50px !important;
+  }
+  /* line 47, /onebitexchange/app/assets/stylesheets/_exchange_box.scss */
+  .form-group input {
+    font-size: 20px;
+    height: 50px;
+  }
+
+  /* line 54, /onebitexchange/app/assets/stylesheets/_exchange_box.scss */
+  #result {
+    margin-bottom: 20px;
+  }
+
+  /* line 58, /onebitexchange/app/assets/stylesheets/_exchange_box.scss */
+  .btn-exchange {
+    font-size: 20px;
+  }
+}
